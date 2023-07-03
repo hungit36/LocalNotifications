@@ -1,6 +1,6 @@
 name: local_push_notifications
 description: A new Flutter plugin project.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/hungit36/LocalNotifications
 
 environment:
@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
+  intl: any
 
 dev_dependencies:
   flutter_test:
