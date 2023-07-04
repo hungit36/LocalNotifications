@@ -1,5 +1,5 @@
 name: local_push_notifications
-description: A new Flutter plugin project.
+description: A complete solution to create Local and Push Notifications (Firebase Messaging), customizing buttons, images, sounds, emoticons and applying many different layouts for Flutter apps.
 version: 0.0.2
 repository: https://github.com/hungit36/LocalNotifications
 
