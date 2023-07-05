@@ -41,8 +41,8 @@ const PUSH_SOURCE_LOCAL_NOTIFICATION = 'Local';
 
 const SHARED_PREFERENCES_KEY = 'notification_plugin_cache';
 
-const CHANNEL_FLUTTER_PLUGIN = 'local_notifications';
-const DART_REVERSE_CHANNEL = 'local_notifications_reverse';
+const CHANNEL_FLUTTER_PLUGIN = 'local_push_notifications';
+const DART_REVERSE_CHANNEL = 'local_push_notifications_reverse';
 
 const ACTION_HANDLE = 'actionHandle';
 const BACKGROUND_HANDLE = 'localDartBGHandle';

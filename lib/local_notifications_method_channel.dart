@@ -17,7 +17,7 @@ class MethodChannelLocalNotifications extends LocalNotificationsPlatform {
 
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('local_notifications');
+  final methodChannel = const MethodChannel('local_push_notifications');
 
   ActionHandler? actionHandler;
   ActionHandler? dismissedHandler;

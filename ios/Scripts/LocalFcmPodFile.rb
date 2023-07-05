@@ -6,8 +6,8 @@ def install_local_fcm_ios_pod_target(application_path = nil)
     raise 'Could not find application path in install_local_fcm_ios_pod_target' unless application_path
 
     flutter_install_ios_engine_pod application_path
-    pod 'local_notifications', :path => File.join('.symlinks', 'plugins', 'local_notifications', 'ios')
-    pod 'local_notifications_fcm', :path => File.join('.symlinks', 'plugins', 'local_notifications_fcm', 'ios')
+    pod 'local_push_notifications', :path => File.join('.symlinks', 'plugins', 'local_push_notifications', 'ios')
+    pod 'local_push_notifications_fcm', :path => File.join('.symlinks', 'plugins', 'local_push_notifications_fcm', 'ios')
 end
 
 def update_local_fcm_service_target(target_name, xcodeproj_path, flutter_root)
